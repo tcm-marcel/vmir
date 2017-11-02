@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 static __inline void mem_wrptr(ir_unit_t *iu, uint32_t offset, void *ptr)
 {
   mem_wr32(iu->iu_mem + offset, ptr ? ptr - iu->iu_mem : 0, iu);

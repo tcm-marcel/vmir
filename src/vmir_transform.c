@@ -22,6 +22,9 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
 
 static void liveness_set_succ(ir_function_t *f, ir_instr_t *ii);
 

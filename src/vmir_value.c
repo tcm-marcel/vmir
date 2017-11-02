@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 typedef enum {
   IR_VC_UNDEF,
   IR_VC_FUNCTION,

@@ -1,3 +1,6 @@
+#pragma once
+#include "vmir.c"
+
 typedef enum {
   IAOT_LITTERAL = 0,
   IAOT_FIXED_WIDTH = 1,

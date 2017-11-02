@@ -1,3 +1,6 @@
+#pragma once
+#include "vmir.c"
+
 
 #ifdef VM_TRACE
 

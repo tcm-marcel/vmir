@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 typedef struct bcbitstream {
   const uint8_t *rdata;
 

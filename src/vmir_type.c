@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 typedef enum {
   IR_TYPE_STRUCT,  // Must be first (0), because of forward references
   IR_TYPE_VOID,

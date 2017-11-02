@@ -22,13 +22,18 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 #include <math.h>
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <unistd.h>
-
+#include <sys/queue.h>
+#include "vmir.h"
 
 typedef struct vm_frame {
   ir_unit_t *iu;

@@ -22,6 +22,7 @@
  * SOFTWARE.
  */
 
+#pragma once
 #define _GNU_SOURCE
 
 #include <setjmp.h>
@@ -41,6 +42,7 @@
 #include <sys/time.h>
 
 #include "vmir.h"
+#include "logger.h"
 
 // #define VM_TRACE
 

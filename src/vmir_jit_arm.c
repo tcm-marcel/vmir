@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 #include <sys/mman.h>
 #include <sys/types.h>
 #include <sys/stat.h>

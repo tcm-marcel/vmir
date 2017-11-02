@@ -22,6 +22,10 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
+
 typedef enum {
   VM_JIT_CALL,
   VM_RET_VOID,

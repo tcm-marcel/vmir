@@ -22,6 +22,9 @@
  * SOFTWARE.
  */
 
+#pragma once
+#include "vmir.c"
+
 
 #define WASM_TYPE_VOID 0
 #define WASM_TYPE_I32  1
