@@ -24,6 +24,18 @@
 
 #pragma once
 
+#include <sys/time.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct ir_unit ir_unit_t;
 
 typedef enum {
@@ -394,3 +406,6 @@ typedef struct vmir_stats {
 
 const vmir_stats_t *vmir_get_stats(ir_unit_t *iu);
 
+#ifdef __cplusplus
+}
+#endif

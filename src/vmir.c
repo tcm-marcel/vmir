@@ -23,6 +23,11 @@
  */
 
 #pragma once
+
+#ifdef __cplusplus
+error __FILE__ must be compiled in C
+#endif
+
 #define _GNU_SOURCE
 
 #include <setjmp.h>

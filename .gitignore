@@ -11,3 +11,5 @@ shatest
 .DS_Store
 *.xcworkspace
 xcuserdata
+
+\.idea/
